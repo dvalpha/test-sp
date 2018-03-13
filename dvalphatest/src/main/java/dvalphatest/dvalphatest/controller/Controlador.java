@@ -15,7 +15,7 @@ public class Controlador {
 
 	@RequestMapping(value = { "/mai" })
 	public ModelAndView main(HttpServletResponse response, HttpServletRequest request) throws IOException {
-		System.out.println("Llega al controlador");
+		System.out.println("Llega al controladorw");
     return new ModelAndView("/home");
 	}
 
