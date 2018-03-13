@@ -1,5 +1,6 @@
 package dvalphatest.dvalphatest.config;
 //File config to access a BBDD Mysqls commit 1
+//commit 2
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
