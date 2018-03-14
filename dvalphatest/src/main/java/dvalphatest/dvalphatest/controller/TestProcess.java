@@ -24,7 +24,7 @@ public class TestProcess {
 	
 	@Test 
 	public void validarSiElDirectorioNoExiste(){
-		assertTrue("El directorio aun no existe",Boolean.FALSE.equals(!root.exists()));
+		assertTrue("El directorio aun no existe ggggg",Boolean.FALSE.equals(!root.exists()));
 	}
 	@Test 
 	public void crearDirectorio(){
