@@ -13,9 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class Controlador {
 
-	@RequestMapping(value = { "/mai" })
+	@RequestMapping(value = { "/junit" })
 	public ModelAndView main(HttpServletResponse response, HttpServletRequest request) throws IOException {
-		System.out.println("Llega al controladorw");
+		
+		
     return new ModelAndView("/home");
 	}
 
