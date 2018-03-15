@@ -12,6 +12,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class Controlador {
+	
+	
 
 	@RequestMapping(value = { "/junit" })
 	public ModelAndView main(HttpServletResponse response, HttpServletRequest request) throws IOException {
